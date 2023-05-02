@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.912);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+button {
+    background-color: white;
+    border: none; 
+    color: rgba(0, 0, 0, 0.912); 
+    padding: 12px 24px;
+    text-align: center; 
+    font-size: 20px;
+    margin: 10px; 
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.97); 
+    color: white;
+    transition: 0.5s;
+  }
+  span{
+    font-size: 20px;
+  }
+  
+  
